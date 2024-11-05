@@ -1,0 +1,208 @@
+Iniciando procesamiento para la cadena 'ab#a*'
+(q0, a, _) -> (q1, a, R, _, R)
+(q1, b, _) -> (q2, b, R, _, R)
+(q2, #, _) -> (q3, #, R, _, R)
+(q3, a, _) -> (qf, a, R, _, R)
+Resultado: La cadena 'ab#a*' es válida
+Tabla de Transición para la cadena 'ab#a*':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+q1              a               _               q1              ab#a*_          _*a#ba          ______          ______         
+q2              b               _               q2              ab#a*_          _*a#ba          ______          ______         
+q3              #               _               q3              ab#a*_          _*a#ba          ______          ______         
+qf              a               _               qf              ab#a*_          _*a#ba          ______          ______         
+
+Árbol de Derivación para la cadena 'ab#a*':
+Paso 1: (q1) --[a, _]--> (q1), Cinta1 ID: ab#a*_, Cinta1 DI: _*a#ba, Cinta2 ID: ______, Cinta2 DI: ______
+Paso 2: (q2) --[b, _]--> (q2), Cinta1 ID: ab#a*_, Cinta1 DI: _*a#ba, Cinta2 ID: ______, Cinta2 DI: ______
+Paso 3: (q3) --[#, _]--> (q3), Cinta1 ID: ab#a*_, Cinta1 DI: _*a#ba, Cinta2 ID: ______, Cinta2 DI: ______
+Paso 4: (qf) --[a, _]--> (qf), Cinta1 ID: ab#a*_, Cinta1 DI: _*a#ba, Cinta2 ID: ______, Cinta2 DI: ______
+
+
+Iniciando procesamiento para la cadena 'baa*#'
+No se encontró una transición para (q0, b, _)
+Resultado: La cadena 'baa*#' es inválida
+Tabla de Transición para la cadena 'baa*#':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+
+Árbol de Derivación para la cadena 'baa*#':
+
+
+Iniciando procesamiento para la cadena 'a*b#a'
+(q0, a, _) -> (q1, a, R, _, R)
+No se encontró una transición para (q1, *, _)
+Resultado: La cadena 'a*b#a' es inválida
+Tabla de Transición para la cadena 'a*b#a':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+q1              a               _               q1              a*b#a_          _a#b*a          ______          ______         
+
+Árbol de Derivación para la cadena 'a*b#a':
+Paso 1: (q1) --[a, _]--> (q1), Cinta1 ID: a*b#a_, Cinta1 DI: _a#b*a, Cinta2 ID: ______, Cinta2 DI: ______
+
+
+Iniciando procesamiento para la cadena 'b#aba*'
+No se encontró una transición para (q0, b, _)
+Resultado: La cadena 'b#aba*' es inválida
+Tabla de Transición para la cadena 'b#aba*':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+
+Árbol de Derivación para la cadena 'b#aba*':
+
+
+Iniciando procesamiento para la cadena 'ab#ab*'
+(q0, a, _) -> (q1, a, R, _, R)
+(q1, b, _) -> (q2, b, R, _, R)
+(q2, #, _) -> (q3, #, R, _, R)
+(q3, a, _) -> (qf, a, R, _, R)
+Resultado: La cadena 'ab#ab*' es válida
+Tabla de Transición para la cadena 'ab#ab*':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+q1              a               _               q1              ab#ab*_         _*ba#ba         _______         _______        
+q2              b               _               q2              ab#ab*_         _*ba#ba         _______         _______        
+q3              #               _               q3              ab#ab*_         _*ba#ba         _______         _______        
+qf              a               _               qf              ab#ab*_         _*ba#ba         _______         _______        
+
+Árbol de Derivación para la cadena 'ab#ab*':
+Paso 1: (q1) --[a, _]--> (q1), Cinta1 ID: ab#ab*_, Cinta1 DI: _*ba#ba, Cinta2 ID: _______, Cinta2 DI: _______
+Paso 2: (q2) --[b, _]--> (q2), Cinta1 ID: ab#ab*_, Cinta1 DI: _*ba#ba, Cinta2 ID: _______, Cinta2 DI: _______
+Paso 3: (q3) --[#, _]--> (q3), Cinta1 ID: ab#ab*_, Cinta1 DI: _*ba#ba, Cinta2 ID: _______, Cinta2 DI: _______
+Paso 4: (qf) --[a, _]--> (qf), Cinta1 ID: ab#ab*_, Cinta1 DI: _*ba#ba, Cinta2 ID: _______, Cinta2 DI: _______
+
+
+Iniciando procesamiento para la cadena 'aa*b#a'
+(q0, a, _) -> (q1, a, R, _, R)
+No se encontró una transición para (q1, a, _)
+Resultado: La cadena 'aa*b#a' es inválida
+Tabla de Transición para la cadena 'aa*b#a':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+q1              a               _               q1              aa*b#a_         _a#b*aa         _______         _______        
+
+Árbol de Derivación para la cadena 'aa*b#a':
+Paso 1: (q1) --[a, _]--> (q1), Cinta1 ID: aa*b#a_, Cinta1 DI: _a#b*aa, Cinta2 ID: _______, Cinta2 DI: _______
+
+
+Iniciando procesamiento para la cadena 'ba#ab*'
+No se encontró una transición para (q0, b, _)
+Resultado: La cadena 'ba#ab*' es inválida
+Tabla de Transición para la cadena 'ba#ab*':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+
+Árbol de Derivación para la cadena 'ba#ab*':
+
+
+Iniciando procesamiento para la cadena 'ab#ba*'
+(q0, a, _) -> (q1, a, R, _, R)
+(q1, b, _) -> (q2, b, R, _, R)
+(q2, #, _) -> (q3, #, R, _, R)
+No se encontró una transición para (q3, b, _)
+Resultado: La cadena 'ab#ba*' es inválida
+Tabla de Transición para la cadena 'ab#ba*':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+q1              a               _               q1              ab#ba*_         _*ab#ba         _______         _______        
+q2              b               _               q2              ab#ba*_         _*ab#ba         _______         _______        
+q3              #               _               q3              ab#ba*_         _*ab#ba         _______         _______        
+
+Árbol de Derivación para la cadena 'ab#ba*':
+Paso 1: (q1) --[a, _]--> (q1), Cinta1 ID: ab#ba*_, Cinta1 DI: _*ab#ba, Cinta2 ID: _______, Cinta2 DI: _______
+Paso 2: (q2) --[b, _]--> (q2), Cinta1 ID: ab#ba*_, Cinta1 DI: _*ab#ba, Cinta2 ID: _______, Cinta2 DI: _______
+Paso 3: (q3) --[#, _]--> (q3), Cinta1 ID: ab#ba*_, Cinta1 DI: _*ab#ba, Cinta2 ID: _______, Cinta2 DI: _______
+
+
+Iniciando procesamiento para la cadena 'a*b#ba'
+(q0, a, _) -> (q1, a, R, _, R)
+No se encontró una transición para (q1, *, _)
+Resultado: La cadena 'a*b#ba' es inválida
+Tabla de Transición para la cadena 'a*b#ba':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+q1              a               _               q1              a*b#ba_         _ab#b*a         _______         _______        
+
+Árbol de Derivación para la cadena 'a*b#ba':
+Paso 1: (q1) --[a, _]--> (q1), Cinta1 ID: a*b#ba_, Cinta1 DI: _ab#b*a, Cinta2 ID: _______, Cinta2 DI: _______
+
+
+Iniciando procesamiento para la cadena 'ba*ab#'
+No se encontró una transición para (q0, b, _)
+Resultado: La cadena 'ba*ab#' es inválida
+Tabla de Transición para la cadena 'ba*ab#':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+
+Árbol de Derivación para la cadena 'ba*ab#':
+
+
+Iniciando procesamiento para la cadena 'ab#x*'
+(q0, a, _) -> (q1, a, R, _, R)
+(q1, b, _) -> (q2, b, R, _, R)
+(q2, #, _) -> (q3, #, R, _, R)
+No se encontró una transición para (q3, x, _)
+Resultado: La cadena 'ab#x*' es inválida
+Tabla de Transición para la cadena 'ab#x*':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+q1              a               _               q1              ab#x*_          _*x#ba          ______          ______         
+q2              b               _               q2              ab#x*_          _*x#ba          ______          ______         
+q3              #               _               q3              ab#x*_          _*x#ba          ______          ______         
+
+Árbol de Derivación para la cadena 'ab#x*':
+Paso 1: (q1) --[a, _]--> (q1), Cinta1 ID: ab#x*_, Cinta1 DI: _*x#ba, Cinta2 ID: ______, Cinta2 DI: ______
+Paso 2: (q2) --[b, _]--> (q2), Cinta1 ID: ab#x*_, Cinta1 DI: _*x#ba, Cinta2 ID: ______, Cinta2 DI: ______
+Paso 3: (q3) --[#, _]--> (q3), Cinta1 ID: ab#x*_, Cinta1 DI: _*x#ba, Cinta2 ID: ______, Cinta2 DI: ______
+
+
+Iniciando procesamiento para la cadena 'a#bb#*'
+(q0, a, _) -> (q1, a, R, _, R)
+No se encontró una transición para (q1, #, _)
+Resultado: La cadena 'a#bb#*' es inválida
+Tabla de Transición para la cadena 'a#bb#*':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+q1              a               _               q1              a#bb#*_         _*#bb#a         _______         _______        
+
+Árbol de Derivación para la cadena 'a#bb#*':
+Paso 1: (q1) --[a, _]--> (q1), Cinta1 ID: a#bb#*_, Cinta1 DI: _*#bb#a, Cinta2 ID: _______, Cinta2 DI: _______
+
+
+Iniciando procesamiento para la cadena '#ba*'
+No se encontró una transición para (q0, #, _)
+Resultado: La cadena '#ba*' es inválida
+Tabla de Transición para la cadena '#ba*':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+
+Árbol de Derivación para la cadena '#ba*':
+
+
+Iniciando procesamiento para la cadena 'ab*a##'
+(q0, a, _) -> (q1, a, R, _, R)
+(q1, b, _) -> (q2, b, R, _, R)
+No se encontró una transición para (q2, *, _)
+Resultado: La cadena 'ab*a##' es inválida
+Tabla de Transición para la cadena 'ab*a##':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+q1              a               _               q1              ab*a##_         _##a*ba         _______         _______        
+q2              b               _               q2              ab*a##_         _##a*ba         _______         _______        
+
+Árbol de Derivación para la cadena 'ab*a##':
+Paso 1: (q1) --[a, _]--> (q1), Cinta1 ID: ab*a##_, Cinta1 DI: _##a*ba, Cinta2 ID: _______, Cinta2 DI: _______
+Paso 2: (q2) --[b, _]--> (q2), Cinta1 ID: ab*a##_, Cinta1 DI: _##a*ba, Cinta2 ID: _______, Cinta2 DI: _______
+
+
+Iniciando procesamiento para la cadena 'b##a*'
+No se encontró una transición para (q0, b, _)
+Resultado: La cadena 'b##a*' es inválida
+Tabla de Transición para la cadena 'b##a*':
+Estado Actual   Símbolo Cinta 1 Símbolo Cinta 2 Nuevo Estado    Cinta1 ID       Cinta1 DI       Cinta2 ID       Cinta2 DI      
+------------------------------------------------------------------------------------------------------------------------
+
+Árbol de Derivación para la cadena 'b##a*':
+
+

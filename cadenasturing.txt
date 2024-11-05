@@ -1,0 +1,15 @@
+ab#a*
+baa*#
+a*b#a
+b#aba*
+ab#ab*
+aa*b#a
+ba#ab*
+ab#ba*
+a*b#ba
+ba*ab#
+ab#x*
+a#bb#*
+#ba*
+ab*a##
+b##a*
